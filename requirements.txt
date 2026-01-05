@@ -1,0 +1,11 @@
+# Desktop GUI (Qt)
+PySide6>=6.4
+
+# Plots / charts
+matplotlib>=3.5
+
+# Numeric utils used by charts
+numpy>=1.24
+
+# OpenAI SDK (code uses: from openai import OpenAI)
+openai>=1.0.0
