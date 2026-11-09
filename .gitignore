@@ -1,0 +1,36 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local and generated data (tracked historical files remain tracked)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+import_out/
+outputs/
+logs/
+
+# Local build artifacts
+build/
+dist/
+*.spec.bak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
